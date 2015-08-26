@@ -1,0 +1,22 @@
+--> := includes
+=>  := erbt
+
+main.cpp --> event_handler	--> game_state
+							--> sound_handler
+		 --> game_state		
+		 --> renderer		--> game_state
+		 --> sound_handler	
+		 --> move_handler	--> game_state
+		
+		 
+ 	>>game_state		--> level		--> wall
+ 										--> bullet		--> wall
+ 										--> spider		--> wall
+ 										
+ 						--> player		--> wall
+ 										--> level
+ 										--> bullet
+ 						
+ 	>>level				--> wall						
+	
+	>>player 			==> entity
