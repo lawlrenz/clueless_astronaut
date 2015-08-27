@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BackToTitle : MonoBehaviour {
-	
+public class load_menu : MonoBehaviour {
+
+	public int levelID;
 	private bool mouseOver;
-	
+
 	private TextMesh textm;
+
 	// Use this for initialization
 	void Start () {
 		textm = GetComponent<TextMesh> ();
@@ -15,18 +17,22 @@ public class BackToTitle : MonoBehaviour {
 	void Update () {
 		if (mouseOver) {
 			if (Input.GetMouseButtonDown(0)){
-				Application.LoadLevel(0);
+				Application.LoadLevel(levelID);
 			}
 		}
 	}
 	
 	void OnMouseEnter(){
-		textm.color = new Color (0, 0, 0);
+		if (textm != null) {
+			textm.color = new Color (0, 0, 0);
+		}
 		mouseOver = true;
 	}
 	
 	void OnMouseExit(){
-		textm.color = new Color (255, 255, 255);
+		if (textm != null) {
+			textm.color = new Color (255, 255, 255);
+		}
 		mouseOver = false;
 	}
 	
