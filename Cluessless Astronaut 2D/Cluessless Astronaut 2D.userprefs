@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerControllerJoypad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\viewHighScores.cs">
     <Files>
-      <File FileName="Assets\Scripts\PressSpace.cs" Line="16" Column="1" />
-      <File FileName="Assets\Scripts\level_select_screen\load_menu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ExitGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\playerControllerJoypad.cs" Line="47" Column="5" />
+      <File FileName="Assets\Scripts\bgMusicHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HoverPopSound.cs" Line="25" Column="16" />
       <File FileName="Assets\Scripts\viewHighScores.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\playerControllerJoypad.cs" Line="72" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

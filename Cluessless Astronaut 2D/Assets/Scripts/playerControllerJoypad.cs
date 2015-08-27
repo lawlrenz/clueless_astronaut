@@ -10,6 +10,8 @@ public class playerControllerJoypad : MonoBehaviour {
 	public float gravity;
 	public float drag;
 
+	public AudioSource playerSound;
+
 	private bool isActive = true; //false wenn PressSpace benutzt wird
 
 
@@ -35,6 +37,14 @@ public class playerControllerJoypad : MonoBehaviour {
 	void Start () {
 		rg2b = GetComponent<Rigidbody2D> ();
 		rg2b.angularDrag = this.drag;
+
+		//sound
+		AudioClip jetpack;
+		jetpack = (AudioClip)Resources.Load ("jetpack");
+		playerSound.clip = jetpack;
+		playerSound.loop = true;
+		playerSound.volume = 0.1f;
+		//playerSound.(playerSound.clip);
 	}
 
 
@@ -58,6 +68,7 @@ public class playerControllerJoypad : MonoBehaviour {
 			acc += 1;
 			if (Input.GetButton("Fire1")){
 				acc = 2;
+				playerSound.volume = 0.9f;
 			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
