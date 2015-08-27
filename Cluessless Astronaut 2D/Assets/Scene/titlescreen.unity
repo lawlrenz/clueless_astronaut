@@ -226,9 +226,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 5.62443392e-06, y: -1.32377338}
   serializedVersion: 2
-  m_Size: {x: 49, y: 10.3491201}
+  m_Size: {x: 33.9293404, y: 6.07230043}
 --- !u!102 &1333907735
 TextMesh:
   serializedVersion: 3
@@ -397,9 +397,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -.101828769, y: -.916455448}
   serializedVersion: 2
-  m_Size: {x: 49, y: 10.3491201}
+  m_Size: {x: 47.9817085, y: 6.8869381}
 --- !u!114 &1481373105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,9 +649,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .234149858, y: .217713237}
+  m_Offset: {x: .234149858, y: -.600774884}
   serializedVersion: 2
-  m_Size: {x: 33.105217, y: 7.3011651}
+  m_Size: {x: 33.1052132, y: 5.66418648}
 --- !u!102 &1820403397
 TextMesh:
   serializedVersion: 3
@@ -762,9 +762,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .507976353, y: .217713848}
+  m_Offset: {x: .507973731, y: -.600787759}
   serializedVersion: 2
-  m_Size: {x: 15.7628002, y: 7.30116558}
+  m_Size: {x: 15.7627983, y: 5.66416073}
 --- !u!102 &1929608987
 TextMesh:
   serializedVersion: 3
