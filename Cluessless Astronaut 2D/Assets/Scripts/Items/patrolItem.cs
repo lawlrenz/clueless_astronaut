@@ -13,8 +13,8 @@ public class patrolItem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		startingPos.x = this.transform.x;
-		startingPos.y = this.transform.y;
+		//startingPos.x = this.transform.x;
+		//startingPos.y = this.transform.y;
 		
 	}
 	

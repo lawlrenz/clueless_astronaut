@@ -17,33 +17,33 @@ Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless
 Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.103 seconds
+- Completed reload, in  0.110 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\System.dll (this message is harmless)
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.457060 ms
+UnloadTime: 0.345059 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 213.
-Total: 0.255753 ms (FindLiveObjects: 0.034569 ms CreateObjectMapping: 0.023366 ms MarkObjects: 0.184373 ms  DeleteObjects: 0.012163 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 224.
+Total: 0.131557 ms (FindLiveObjects: 0.035850 ms CreateObjectMapping: 0.008002 ms MarkObjects: 0.080663 ms  DeleteObjects: 0.005441 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.257354 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 619.
+Total: 0.240389 ms (FindLiveObjects: 0.049934 ms CreateObjectMapping: 0.010883 ms MarkObjects: 0.169328 ms  DeleteObjects: 0.009602 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.296405 ms
+UnloadTime: 3.193241 ms
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1720.
-Total: 0.413879 ms (FindLiveObjects: 0.079382 ms CreateObjectMapping: 0.016964 ms MarkObjects: 0.294805 ms  DeleteObjects: 0.022086 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.544062 ms
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 218.
-Total: 0.167088 ms (FindLiveObjects: 0.014404 ms CreateObjectMapping: 0.008322 ms MarkObjects: 0.125796 ms  DeleteObjects: 0.018245 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 229.
+Total: 0.324253 ms (FindLiveObjects: 0.026887 ms CreateObjectMapping: 0.017925 ms MarkObjects: 0.187254 ms  DeleteObjects: 0.091226 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.353061 ms
+UnloadTime: 0.253833 ms
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 202.
-Total: 0.185333 ms (FindLiveObjects: 0.027207 ms CreateObjectMapping: 0.011523 ms MarkObjects: 0.139560 ms  DeleteObjects: 0.006401 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 205.
+Total: 0.563682 ms (FindLiveObjects: 0.025607 ms CreateObjectMapping: 0.018245 ms MarkObjects: 0.493262 ms  DeleteObjects: 0.025607 ms)
 

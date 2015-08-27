@@ -103,23 +103,20 @@ public class playerControllerJoypad : MonoBehaviour {
 			}
 			else{
 			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
-<<<<<<< HEAD
+
 	
 			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 			}
-=======
+
 				if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 					rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 				}
-		
-			}
 			flame_l.transform.localScale = flamescale;
 			flame_r.transform.localScale = flamescale;
->>>>>>> origin/master
+			}
 
 
 			}
 	}
-}
