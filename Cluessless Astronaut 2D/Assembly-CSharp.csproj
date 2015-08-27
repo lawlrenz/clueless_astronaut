@@ -46,8 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackToTitle.cs" />
-     <Compile Include="Assets\Scripts\Controls.cs" />
      <Compile Include="Assets\Scripts\ExitGame.cs" />
      <Compile Include="Assets\Scripts\GameState\gameStateHP.cs" />
      <Compile Include="Assets\Scripts\GameState\gameStateLevelComplete.cs" />
@@ -55,12 +53,10 @@
      <Compile Include="Assets\Scripts\HoverPopSound.cs" />
      <Compile Include="Assets\Scripts\LeaveLevel.cs" />
      <Compile Include="Assets\Scripts\PressSpace.cs" />
-     <Compile Include="Assets\Scripts\SelectLevel.cs" />
-     <Compile Include="Assets\Scripts\ViewTimes.cs" />
      <Compile Include="Assets\Scripts\bgMusicHandler.cs" />
      <Compile Include="Assets\Scripts\followPlayer.cs" />
      <Compile Include="Assets\Scripts\level_select_screen\load_level.cs" />
-     <Compile Include="Assets\Scripts\playerController.cs" />
+     <Compile Include="Assets\Scripts\level_select_screen\load_menu.cs" />
      <Compile Include="Assets\Scripts\playerControllerJoypad.cs" />
      <Compile Include="Assets\Scripts\viewHighScores.cs" />
  <Reference Include="UnityEngine.UI">
