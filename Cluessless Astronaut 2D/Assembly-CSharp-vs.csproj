@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Controls.cs" />
      <Compile Include="Assets\Scripts\ExitGame.cs" />
      <Compile Include="Assets\Scripts\HoverPopSound.cs" />
+     <Compile Include="Assets\Scripts\LeaveLevel.cs" />
      <Compile Include="Assets\Scripts\PressSpace.cs" />
      <Compile Include="Assets\Scripts\SelectLevel.cs" />
      <Compile Include="Assets\Scripts\ViewTimes.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Scripts\gameStateTime.cs" />
      <Compile Include="Assets\Scripts\level_select_screen\level0.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
+     <Compile Include="Assets\Scripts\playerControllerJoypad.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
