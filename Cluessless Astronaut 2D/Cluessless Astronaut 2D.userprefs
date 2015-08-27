@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\gameStateTime.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerControllerJoypad.cs">
     <Files>
-      <File FileName="Assets\Scripts\gameStateTime.cs" Line="7" Column="2" />
-      <File FileName="Assets\Scripts\gameStateHP.cs" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\playerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bgMusicHandler.cs" Line="19" Column="20" />
+      <File FileName="Assets\Scripts\PressSpace.cs" Line="10" Column="18" />
+      <File FileName="Assets\Scripts\LeaveLevel.cs" Line="13" Column="32" />
+      <File FileName="Assets\Scripts\Controls.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\playerController.cs" Line="56" Column="24" />
+      <File FileName="Assets\Scripts\playerControllerJoypad.cs" Line="36" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
