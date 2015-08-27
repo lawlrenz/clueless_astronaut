@@ -17,6 +17,8 @@ public class playerControllerJoypad : MonoBehaviour {
 
 	private Rigidbody2D rg2b;
 
+
+
 	private Vector2 VecProd(Vector2 a, Vector2 b){
 		return new Vector2(a.x*b.x - a.y*b.y, a.x*b.y + a.y * b.x);
 	}
@@ -43,6 +45,9 @@ public class playerControllerJoypad : MonoBehaviour {
 		jetpack = (AudioClip)Resources.Load ("jetpack");
 		playerSound.clip = jetpack;
 		playerSound.loop = true;
+
+
+
 	}
 
 
@@ -62,10 +67,25 @@ public class playerControllerJoypad : MonoBehaviour {
 
 		// DEBUG
 		if (isActive) {
+			
+			//flames
+			
+			GameObject flame_l = GameObject.Find("flame_left");
+			GameObject flame_r = GameObject.Find ("flame_right");
+			Vector3 flamescale = new Vector3(0.6385285f, -0.6385285f, 0.6385285f);
+
+
 			playerSound.volume = 0.01f;
 
 			float rot = -1*Input.GetAxis ("Horizontal");
 			float acc = Input.GetAxis("Vertical");
+			if(rot <0){
+
+			}
+			else if (rot>0){
+
+			}
+
 			if (acc < 0){
 				acc = 0;
 			}
@@ -73,20 +93,32 @@ public class playerControllerJoypad : MonoBehaviour {
 			if (Input.GetButton("Fire1")){
 				acc = 2;
 				playerSound.volume = 0.05f;
+				flamescale = new Vector3(1.2f, -1.2f, 1.2f);
+
 			}
 
 			if (Input.GetButton("Fire2")){
-				playerSound.volume = 0.0f;
+				flamescale = new Vector3(0.0f, 0.0f, 0.0f);
+								playerSound.volume = 0.0f;
 			}
 			else{
 			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
+<<<<<<< HEAD
 	
 			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 			}
+=======
+				if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
+					rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
+				}
+		
+			}
+			flame_l.transform.localScale = flamescale;
+			flame_r.transform.localScale = flamescale;
+>>>>>>> origin/master
 
-			// speed
 
 			}
 	}
