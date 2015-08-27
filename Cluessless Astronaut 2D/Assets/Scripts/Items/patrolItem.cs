@@ -3,23 +3,39 @@ using System.Collections;
 
 public class patrolItem : MonoBehaviour {
 
-	private float xLeft;
-	private float xRight;
-	private float yLeft;
-	private float yRight;
-	private float movSpeed;
+	public float xOffsetp1;
+	public float yOffsetp1;
+	public float xOffsetp2;
+	public float yOffsetp2;
 
-	private Vector2 startingPos;
+	public float movSpeed;
 
-	// Use this for initialization
+	private float mod = 1;
+
+	private Vector2 p1;
+	private Vector2 p2;
+
+	private float linearKomb = 50;
+
 	void Start () {
-		//startingPos.x = this.transform.x;
-		//startingPos.y = this.transform.y;
-		
+		p1.x = this.transform.position.x + xOffsetp1;
+		p1.y = this.transform.position.y + yOffsetp1;
+
+		p2.x = this.transform.position.x + xOffsetp2;
+		p2.y = this.transform.position.y + yOffsetp2;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+	void FixedUpdate(){
+		if (Mathf.Abs (linearKomb) > 100) {
+			mod = mod * -1.0f;
+		}
+		linearKomb += mod * movSpeed * 0.01f;
+		Debug.Log ("Komb: " + linearKomb);
+	}
+
 }
