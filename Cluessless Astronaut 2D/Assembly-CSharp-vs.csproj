@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\level_select_screen\load_level.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
      <Compile Include="Assets\Scripts\playerControllerJoypad.cs" />
+     <Compile Include="Assets\Scripts\viewHighScores.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programme/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
