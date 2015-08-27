@@ -74,13 +74,19 @@ public class playerControllerJoypad : MonoBehaviour {
 				acc = 2;
 				playerSound.volume = 0.05f;
 			}
+
+			if (Input.GetButton("Fire2")){
+				playerSound.volume = 0.0f;
+			}
+			else{
+			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
+			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 				}
 
 			// speed
 
-			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
 			}
 	}
 }

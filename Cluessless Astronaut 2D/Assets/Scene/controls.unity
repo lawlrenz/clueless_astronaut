@@ -115,7 +115,9 @@ TextMesh:
 
     rotate right
 
-    boost'
+    boost
+
+    drift'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 2
@@ -307,7 +309,9 @@ TextMesh:
 
     D
 
-    W/LeftMouse
+    LeftMouse
+
+    RightMouse
 
 '
   m_OffsetZ: 0
