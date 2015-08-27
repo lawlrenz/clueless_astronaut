@@ -21,7 +21,7 @@ public class ExitGame : MonoBehaviour {
 	}
 	
 	void OnMouseEnter(){
-		textm.color = new Color (0, 0, 0);
+		textm.color = new Color (0, 255, 0);
 		mouseOver = true;
 	}
 	

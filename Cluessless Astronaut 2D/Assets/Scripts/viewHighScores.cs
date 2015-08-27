@@ -10,6 +10,7 @@ public class viewHighScores : MonoBehaviour {
 
 		for(int i = 1; i <= levelamount; i++){
 			string meshident = "LevelTime" +i ;
+
 			int scene_iter = i + sceneoffset;
 			string timeident = scene_iter + "LevelTime";
 

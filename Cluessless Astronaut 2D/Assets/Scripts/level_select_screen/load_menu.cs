@@ -24,7 +24,7 @@ public class load_menu : MonoBehaviour {
 	
 	void OnMouseEnter(){
 		if (textm != null) {
-			textm.color = new Color (0, 0, 0);
+			textm.color = new Color (0, 255, 0);
 		}
 		mouseOver = true;
 	}
