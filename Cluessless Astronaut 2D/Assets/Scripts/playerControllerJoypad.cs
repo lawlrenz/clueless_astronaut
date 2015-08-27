@@ -51,13 +51,21 @@ public class playerControllerJoypad : MonoBehaviour {
 		// DEBUG
 		if (isActive) {
 			float rot = -1*Input.GetAxis ("Horizontal");
+			float acc = Input.GetAxis("Vertical");
+			if (acc < 0){
+				acc = 0;
+			}
+			acc += 1;
+			if (Input.GetButton("Fire1")){
+				acc = 2;
+			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 				}
 
 			// speed
 
-			rg2b.velocity = VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
+			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
 			}
 	}
 }
