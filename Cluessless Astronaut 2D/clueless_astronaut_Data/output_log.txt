@@ -1,0 +1,61 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.113 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Dokumente\gamejam2015\gamejam_aug_15\Cluessless Astronaut 2D\clueless_astronaut_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.406837 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 160.
+Total: 0.107871 ms (FindLiveObjects: 0.016004 ms CreateObjectMapping: 0.009922 ms MarkObjects: 0.076181 ms  DeleteObjects: 0.005441 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.264396 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 188.
+Total: 0.286482 ms (FindLiveObjects: 0.034249 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.216382 ms  DeleteObjects: 0.016004 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.636983 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 181.
+Total: 0.154924 ms (FindLiveObjects: 0.030408 ms CreateObjectMapping: 0.017284 ms MarkObjects: 0.101469 ms  DeleteObjects: 0.005441 ms)
+
+HIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.828399 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 548.
+Total: 0.221183 ms (FindLiveObjects: 0.040011 ms CreateObjectMapping: 0.014084 ms MarkObjects: 0.092186 ms  DeleteObjects: 0.073941 ms)
+
+space pressed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
