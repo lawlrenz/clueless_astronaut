@@ -1271,7 +1271,6 @@ GameObject:
   - 50: {fileID: 1055465381}
   - 114: {fileID: 1055465380}
   - 58: {fileID: 1055465379}
-  - 114: {fileID: 1055465378}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1292,17 +1291,6 @@ Transform:
   - {fileID: 2139345806}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &1055465378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1055465376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec145359b9d9159438acdce8bdd4bbda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1055465379
 CircleCollider2D:
   m_ObjectHideFlags: 0

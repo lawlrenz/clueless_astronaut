@@ -10,7 +10,7 @@ public class playerControllerJoypad : MonoBehaviour {
 	public float gravity;
 	public float drag;
 
-	private bool isActive = false;
+	private bool isActive = true; //false wenn PressSpace benutzt wird
 
 
 	private Rigidbody2D rg2b;
