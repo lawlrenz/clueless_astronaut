@@ -10,6 +10,8 @@ public class patrolItem : MonoBehaviour {
 
 	public float movSpeed;
 
+	
+
 	private float mod = 1;
 
 	private Vector2 p1;
@@ -23,6 +25,7 @@ public class patrolItem : MonoBehaviour {
 
 		p2.x = this.transform.position.x + xOffsetp2;
 		p2.y = this.transform.position.y + yOffsetp2;
+
 	}
 	
 	// Update is called once per frame
@@ -31,11 +34,11 @@ public class patrolItem : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		if (Mathf.Abs (linearKomb) > 100) {
+		if ((linearKomb > 100)||(linearKomb < 0)) {
 			mod = mod * -1.0f;
 		}
 		linearKomb += mod * movSpeed * 0.01f;
-		Debug.Log ("Komb: " + linearKomb);
+		//this.transform.position.x = linearKomb * 0.01f * p1.x + (1 - linearKomb * 0.01f) * p2.x;
 	}
 
 }
