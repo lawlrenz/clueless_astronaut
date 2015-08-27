@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameState\gameStateLevelComplete.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\viewHighScores.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameState\gameStateLevelComplete.cs" Line="7" Column="3" />
-      <File FileName="Assets\Scripts\GameState\gameStateTime.cs" Line="21" Column="1" />
+      <File FileName="Assets\Scripts\GameState\gameStateLevelComplete.cs" Line="11" Column="45" />
+      <File FileName="Assets\Scripts\GameState\gameStateTime.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\viewHighScores.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\playerControllerJoypad.cs" Line="48" Column="47" />
+      <File FileName="Assets\Scripts\followPlayer.cs" Line="11" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
