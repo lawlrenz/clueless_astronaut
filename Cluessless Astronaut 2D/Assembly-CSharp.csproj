@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\gameStateHP.cs" />
      <Compile Include="Assets\Scripts\gameStateTime.cs" />
      <Compile Include="Assets\Scripts\level_select_screen\level0.cs" />
+     <Compile Include="Assets\Scripts\level_select_screen\level1.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
      <Compile Include="Assets\Scripts\playerControllerJoypad.cs" />
  <Reference Include="UnityEngine.UI">

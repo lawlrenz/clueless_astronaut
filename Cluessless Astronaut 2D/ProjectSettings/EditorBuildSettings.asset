@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Scene/viewtimes.unity
   - enabled: 1
     path: Assets/Scene/controls.unity
+  - enabled: 1
+    path: Assets/Scene/Level/level1.unity
