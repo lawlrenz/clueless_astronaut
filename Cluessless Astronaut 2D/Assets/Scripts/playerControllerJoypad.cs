@@ -43,15 +43,17 @@ public class playerControllerJoypad : MonoBehaviour {
 		jetpack = (AudioClip)Resources.Load ("jetpack");
 		playerSound.clip = jetpack;
 		playerSound.loop = true;
-		playerSound.volume = 0.1f;
-		//playerSound.(playerSound.clip);
 	}
 
 
 	// Update is called once per frame
 	void Update () {
-
+		if (!playerSound.isPlaying)
+		    { 
+			playerSound.Play();
 		}
+
+	}
 	void FixedUpdate() {
 		// DEBUG
 
@@ -60,6 +62,8 @@ public class playerControllerJoypad : MonoBehaviour {
 
 		// DEBUG
 		if (isActive) {
+			playerSound.volume = 0.01f;
+
 			float rot = -1*Input.GetAxis ("Horizontal");
 			float acc = Input.GetAxis("Vertical");
 			if (acc < 0){
@@ -68,7 +72,7 @@ public class playerControllerJoypad : MonoBehaviour {
 			acc += 1;
 			if (Input.GetButton("Fire1")){
 				acc = 2;
-				playerSound.volume = 0.9f;
+				playerSound.volume = 0.05f;
 			}
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
