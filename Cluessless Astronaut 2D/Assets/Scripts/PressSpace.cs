@@ -8,8 +8,8 @@ public class PressSpace : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("space")) {
-			GetComponent<playerController>().setActive();
+		if (Input.GetButton("Submit")) {
+			GetComponent <playerControllerJoypad>().setActive();
 		}
 	}
 }

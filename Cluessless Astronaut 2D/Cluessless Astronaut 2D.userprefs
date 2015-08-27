@@ -1,8 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PressSpace.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerController.cs">
     <Files>
-      <File FileName="Assets\Scripts\PressSpace.cs" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\bgMusicHandler.cs" Line="19" Column="20" />
+      <File FileName="Assets\Scripts\PressSpace.cs" Line="11" Column="3" />
+      <File FileName="Assets\Scripts\LeaveLevel.cs" Line="13" Column="39" />
+      <File FileName="Assets\Scripts\Controls.cs" Line="34" Column="1" />
+      <File FileName="Assets\Scripts\playerController.cs" Line="56" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
