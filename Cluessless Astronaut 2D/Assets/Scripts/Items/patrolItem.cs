@@ -10,8 +10,6 @@ public class patrolItem : MonoBehaviour {
 
 	public float movSpeed;
 
-	
-
 	private float mod = 1;
 
 	private Vector2 p1;
@@ -38,7 +36,10 @@ public class patrolItem : MonoBehaviour {
 			mod = mod * -1.0f;
 		}
 		linearKomb += mod * movSpeed * 0.01f;
+		float newPosX = linearKomb * 0.01f * p1.x + (1 - linearKomb * 0.01f) * p2.x;
+		float newPosY = linearKomb * 0.01f * p1.y + (1 - linearKomb * 0.01f) * p2.y;
 		//this.transform.position.x = linearKomb * 0.01f * p1.x + (1 - linearKomb * 0.01f) * p2.x;
+		this.transform.position = new Vector3 (newPosX, newPosY, 0);
 	}
 
 }
