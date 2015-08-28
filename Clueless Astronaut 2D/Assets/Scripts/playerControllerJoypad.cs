@@ -126,8 +126,6 @@ public class playerControllerJoypad : MonoBehaviour {
 				rg2b.velocity = rg2b.velocity*0.5f;
 			}
 
-			Debug.Log("vel: " + rg2b.velocity);
-
 			// ADDTORQUE
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime * rg2b.mass);
