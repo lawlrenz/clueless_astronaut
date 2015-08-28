@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: JetpackFlames 1
+  m_Name: flames_right
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -51,10 +51,8 @@ AnimationClip:
       value: {fileID: 21300030, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
     - time: .266666681
       value: {fileID: 21300032, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
-    - time: .283333331
+    - time: .283333361
       value: {fileID: 21300034, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
-    - time: .300000012
-      value: {fileID: 21300036, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -91,11 +89,10 @@ AnimationClip:
     - {fileID: 21300030, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
     - {fileID: 21300032, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
     - {fileID: 21300034, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
-    - {fileID: 21300036, guid: 6bcd51605740b9e46a7274af20df8db0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .316666692
+    m_StopTime: .300000042
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
