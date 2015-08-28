@@ -20,7 +20,7 @@ public class viewHighScores : MonoBehaviour {
 			int scene_iter = i + sceneoffset;
 			string timeident = scene_iter + "LevelTime";
 			
-			scoreboard_mesh.text += "\n#" + i + " - " + PlayerPrefs.GetFloat(timeident).ToString("#.00");
+			scoreboard_mesh.text += "\n" + i + ": " + PlayerPrefs.GetFloat(timeident).ToString("#.00");
 		}
 	}
 }
