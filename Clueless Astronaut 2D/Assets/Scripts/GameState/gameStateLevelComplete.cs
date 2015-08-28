@@ -3,6 +3,14 @@ using System.Collections;
 
 public class gameStateLevelComplete : MonoBehaviour {
 
+	public int reloadID;
+
+
+	void Update(){
+		if (Input.GetButton ("Fire3")) {
+			Application.LoadLevel(reloadID);
+		}
+	}
 	void OnCollisionEnter2D (Collision2D col)
 	{
 		if (col.gameObject.name == "Player") {
