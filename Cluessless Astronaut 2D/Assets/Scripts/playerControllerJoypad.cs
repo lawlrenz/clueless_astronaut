@@ -17,6 +17,9 @@ public class playerControllerJoypad : MonoBehaviour {
 
 	private Rigidbody2D rg2b;
 
+	private float rot;
+	private float acc;
+
 
 
 	private Vector2 VecProd(Vector2 a, Vector2 b){
@@ -58,6 +61,9 @@ public class playerControllerJoypad : MonoBehaviour {
 			playerSound.Play();
 		}
 
+		// READ INPUTS
+		this.rot = -1*Input.GetAxis ("Horizontal");
+		this.acc = Input.GetAxis("Vertical");
 	}
 	void FixedUpdate() {
 		// DEBUG
@@ -77,42 +83,44 @@ public class playerControllerJoypad : MonoBehaviour {
 
 			playerSound.volume = 0.01f;
 
-			float rot = -1*Input.GetAxis ("Horizontal");
-			float acc = Input.GetAxis("Vertical");
-			if(rot <0){
+			// AUSLESEN DER ACHSEN
 
-			}
-			else if (rot>0){
 
-			}
-
+			// RÜCKWÄRTSFLIEGEN AUSSCHLIESSEN
 			if (acc < 0){
 				acc = 0;
 			}
 			acc += 1;
+			// FALLS FIRE1 GEDRÜCKT WIRD, BESCHLEUNIGUNG VERDOPPELN
 			if (Input.GetButton("Fire1")){
 				acc = 2;
 				playerSound.volume = 0.05f;
-				flamescale = new Vector3(1.2f, -1.2f, 1.2f);
-
 			}
 
+			// FALLS BESCHLEUNIGUNG VORHANDEN, VERGRÖSSERE FLAMME
+			if (acc > 1){
+				// FLAMME VERGRÖSSERN
+				flamescale = new Vector3(1.2f, -1.2f, 1.2f);
+			}
+
+			// FALLS FIRE2 GEDRÜCKT WIRD, DRIFT
 			if (Input.GetButton("Fire2")){
+				// FLAMME AUSBLENDEN
 				flamescale = new Vector3(0.0f, 0.0f, 0.0f);
 								playerSound.volume = 0.0f;
 			}
+			// WENN NICHT FIRE2, UPDATE VELOCITY
 			else{
-			rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
-
-	
+				// UPDATE VELOCITY
+				rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
 			}
+
+			// ADDTORQUE
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
 				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
 			}
 
-				if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
-					rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
-				}
+			// UPDATE FLAMESCALE
 			flame_l.transform.localScale = flamescale;
 			flame_r.transform.localScale = flamescale;
 			}
