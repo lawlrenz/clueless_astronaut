@@ -44,6 +44,9 @@ TagManager:
   - name: BackgroundSortingLayer
     uniqueID: 2548691611
     locked: 0
+  - name: DecalLayer
+    uniqueID: 1789748577
+    locked: 0
   - name: PlayerSortingLayer
     uniqueID: 1841727345
     locked: 0

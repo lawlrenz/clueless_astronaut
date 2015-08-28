@@ -4124,6 +4124,7 @@ MonoBehaviour:
   rotSpeed: 10
   gravity: 200
   drag: .5
+  maxVel: 10
   DEBUGMODE: 0
   playerSound: {fileID: 14938744}
 --- !u!50 &359699820
