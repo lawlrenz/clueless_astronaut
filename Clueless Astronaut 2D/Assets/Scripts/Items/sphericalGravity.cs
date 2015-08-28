@@ -33,8 +33,6 @@ public class sphericalGravity : MonoBehaviour {
 
 	void FixedUpdate() {
 		if (obj.GetComponent<Rigidbody2D>()) {
-			Debug.Log("grav: " + gravCoeff);
-			Debug.Log("vektor: " + (this.transform.position - obj.transform.position).normalized);
 			obj.GetComponent<Rigidbody2D>().AddForce((this.transform.position - obj.transform.position).normalized * gravCoeff);
 		}
 	}

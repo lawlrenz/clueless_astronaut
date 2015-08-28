@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackgroundSortingLayer
+    uniqueID: 2548691611
+    locked: 0
+  - name: PlayerSortingLayer
+    uniqueID: 1841727345
+    locked: 0
+  - name: ForegroundSortingLayer
+    uniqueID: 3168818175
+    locked: 0

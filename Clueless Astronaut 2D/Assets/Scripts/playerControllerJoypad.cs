@@ -9,6 +9,7 @@ public class playerControllerJoypad : MonoBehaviour {
 	public float rotSpeed;
 	public float gravity;
 	public float drag;
+	public float maxVel;
 
 	public bool DEBUGMODE;
 
@@ -38,6 +39,11 @@ public class playerControllerJoypad : MonoBehaviour {
 
 	public void setActive(){
 		this.isActive = true;
+	}
+
+	private float VectorAbs(Vector2 a){
+		float dis = Mathf.Sqrt (a.x*a.x+a.y*a.y);
+		return dis;
 	}
 
 	// Use this for initialization
@@ -114,8 +120,13 @@ public class playerControllerJoypad : MonoBehaviour {
 			// WENN NICHT FIRE2, UPDATE VELOCITY
 			else{
 				// UPDATE VELOCITY
-				rg2b.velocity = acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
+				if ((VectorAbs(rg2b.velocity) < maxVel)){
+					rg2b.velocity += acc * VecProd (GetOrientation (rg2b), new Vector2 (0, 1)) * Time.fixedDeltaTime * gravity;
+				}
+				rg2b.velocity = rg2b.velocity*0.5f;
 			}
+
+			Debug.Log("vel: " + rg2b.velocity);
 
 			// ADDTORQUE
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
