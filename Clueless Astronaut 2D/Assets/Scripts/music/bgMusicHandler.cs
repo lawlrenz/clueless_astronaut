@@ -4,11 +4,10 @@ using System.Collections;
 public class bgMusicHandler : MonoBehaviour {
 
 	private static bgMusicHandler instance = null;
-
+	
 	public static bgMusicHandler Instance{
 		get { return instance; }
 	}
-
 
 	// Use this for initialization
 	void Start () {
