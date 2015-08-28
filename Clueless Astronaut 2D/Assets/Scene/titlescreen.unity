@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ac: {fileID: 8300000, guid: a17618844b8d46b40b2e0a985702ab6e, type: 3}
+  volume: 1
 --- !u!4 &1055562786
 Transform:
   m_ObjectHideFlags: 0
