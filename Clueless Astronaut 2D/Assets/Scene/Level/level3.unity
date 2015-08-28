@@ -4124,6 +4124,7 @@ MonoBehaviour:
   rotSpeed: 10
   gravity: 200
   drag: .5
+  DEBUGMODE: 0
   playerSound: {fileID: 14938744}
 --- !u!50 &359699820
 Rigidbody2D:
@@ -9903,7 +9904,7 @@ Animator:
   m_GameObject: {fileID: 727785007}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 870a635d3b19f534eb222744dc7cfb89, type: 2}
+  m_Controller: {fileID: 9100000, guid: 80216d69b4ae9c7419dd61eca3d9d116, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -20871,7 +20872,7 @@ Animator:
   m_GameObject: {fileID: 1615648934}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 870a635d3b19f534eb222744dc7cfb89, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a1cce5b74a375848b786a456fe5bd8b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
