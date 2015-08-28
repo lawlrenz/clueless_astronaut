@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items\patrolItem.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Items\patrolItem.cs" Line="15" Column="21" />
+      <File FileName="Assets\Scripts\playerControllerJoypad.cs" Line="69" Column="11" />
+      <File FileName="Assets\Scripts\level_select_screen\load_menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Items\rotateItem.cs" Line="5" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
