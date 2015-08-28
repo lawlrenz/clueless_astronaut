@@ -10,6 +10,8 @@ public class playerControllerJoypad : MonoBehaviour {
 	public float gravity;
 	public float drag;
 
+	public bool DEBUGMODE;
+
 	public AudioSource playerSound;
 
 	private bool isActive = true; //false wenn PressSpace benutzt wird
@@ -49,8 +51,6 @@ public class playerControllerJoypad : MonoBehaviour {
 		playerSound.clip = jetpack;
 		playerSound.loop = true;
 
-
-
 	}
 
 
@@ -86,11 +86,13 @@ public class playerControllerJoypad : MonoBehaviour {
 			// AUSLESEN DER ACHSEN
 
 
-			// RÜCKWÄRTSFLIEGEN AUSSCHLIESSEN
-			if (acc < 0){
-				acc = 0;
+			// RÜCKWÄRTSFLIEGEN AUSSCHLIESSEN+
+			if (!DEBUGMODE){
+				if (acc < 0){
+					acc = 0;
+				}
+				acc += 1;
 			}
-			acc += 1;
 			// FALLS FIRE1 GEDRÜCKT WIRD, BESCHLEUNIGUNG VERDOPPELN
 			if (Input.GetButton("Fire1")){
 				acc = 2;
@@ -117,7 +119,7 @@ public class playerControllerJoypad : MonoBehaviour {
 
 			// ADDTORQUE
 			if (Mathf.Abs (rg2b.angularVelocity) < maxRotspeed) {
-				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime);
+				rg2b.AddTorque (rot * rotSpeed * Time.fixedDeltaTime * rg2b.mass);
 			}
 
 			// UPDATE FLAMESCALE
