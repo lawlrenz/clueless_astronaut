@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb28ccc6bdaae954680c1f93fd16a874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelamount: 5
+  levelamount: 6
 --- !u!61 &364122208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4558540e766e445459fa54f562754944, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelamount: 5
+  levelamount: 6
 --- !u!1 &1710736947
 GameObject:
   m_ObjectHideFlags: 0
